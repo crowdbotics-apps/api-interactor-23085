@@ -32,9 +32,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "GitHub API Interactor"
-admin.site.site_title = "GitHub API Interactor Admin Portal"
-admin.site.index_title = "GitHub API Interactor Admin"
+admin.site.site_header = "API Interactor"
+admin.site.site_title = "API Interactor Admin Portal"
+admin.site.index_title = "API Interactor Admin"
 
 # swagger
 api_info = openapi.Info(
